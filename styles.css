@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7faff;
+    margin: 0;
+    padding: 10px;
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #bbb;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+th {
+    background-color: #378fd8;
+    color: white;
+}
+
+td.task {
+    background-color: #e1f0fa;
+    text-align: left;
+    font-weight: bold;
+}
+
+td input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    text-align: left;
+    font-size: 12px;
+}
+
+.filled {
+    background-color: #378fdc;
+    cursor: pointer;
+    color: #fff;
+}
+
+.week {
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.week.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    background: #378fd8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #2a6fb0;
+}
